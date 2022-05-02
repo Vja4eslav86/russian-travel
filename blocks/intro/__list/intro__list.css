@@ -1,5 +1,6 @@
 .intro__list {
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -7,7 +8,6 @@
     line-height: 18px;
     color: #FFFFFF;
     margin: 33px 0 0;
-    height: auto;
 }
 
 @media screen and (max-width: 425px) {
