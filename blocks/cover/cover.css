@@ -1,14 +1,12 @@
 .cover {
-    max-width: 1184px;
-    height: 740px;
+    width: 1184px;
     margin: 0 auto;
     padding: 92px 48px 0;
 }
 
 @media screen and (max-width: 1280px) {
     .cover {
-        max-width: 1024px;
-        height: 640px;
+        width: 1024px;
         padding: 92px 0 0;
     }
 }
@@ -16,7 +14,6 @@
 @media screen and (max-width: 1024px) {
     .cover {
         width: 768px;
-        height: 480px;
         padding: 90px 0 0;
     }
 }
@@ -24,7 +21,6 @@
 @media screen and (max-width: 768px) {
     .cover {
         width: 425px;
-        height: 266px;
         padding: 66px 0 0;
     }
 }
@@ -32,7 +28,5 @@
 @media screen and (max-width: 425px) {
     .cover {
         width: 320px;
-        height: 200px;
-        padding: 66px 0 0;
     }
 }

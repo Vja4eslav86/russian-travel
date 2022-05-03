@@ -9,16 +9,34 @@
     color: #FFFFFF;
     width: 360px;
     margin: 0 auto;
-    padding-top: 32px;
+    padding: 32px 0 245px;
     z-index: 1;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover__subtitle {
+        padding: 32px 0 195px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        padding: 32px 0 115px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
-        padding-top: 16px;
+        padding: 32px 0 66px;
         width: 288px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__subtitle {
+        padding: 16px 0 33px;
     }
 }
 

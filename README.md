@@ -13,4 +13,4 @@
 * на странице используется технология grig.
 
 ### Ссылка на проект
-* https://github.com/Vja4eslav86/russian-travel
+* https://vja4eslav86.github.io/russian-travel/index.html

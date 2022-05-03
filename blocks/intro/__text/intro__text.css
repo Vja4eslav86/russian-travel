@@ -18,13 +18,11 @@
 @media screen and (max-width: 768px) {
     .intro__text {
         width: 393px;
-        height: auto;
     }
 }
 
 @media screen and (max-width: 425px) {
     .intro__text {
         width: 288px;
-        height: auto;
     }
 }

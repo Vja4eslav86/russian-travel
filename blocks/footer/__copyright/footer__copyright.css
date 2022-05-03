@@ -2,21 +2,22 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 16px;
     color: #FFFFFF;
     margin-right: 18px;
     text-decoration: none;
 }
 
 .footer__copyright:hover {
-    text-decoration: underline;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
     .footer__copyright {
+        width: max-content;
         font-size: 14px;
         line-height: 14px;
-        padding: 16px 0 24px;
+        padding: 48px 0 24px;
     }
 }
