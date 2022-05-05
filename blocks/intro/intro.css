@@ -4,7 +4,7 @@
     flex-direction: column;
     position: relative;
     margin: 0 auto;
-    padding: 92px 148px 0;
+    padding: 92px 0 0;
     max-width: 984px;
     width: 100%;
 }
@@ -12,26 +12,24 @@
 @media screen and (max-width: 1279px) {
     .intro {
         max-width: 928px;
-        padding: 92px 48px 0;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .intro {
         max-width: 720px;
-        padding: 88px 24px 0;
+        padding: 88px 0 0;
     }
 }
 
 @media screen and (max-width: 767px) {
     .intro {
         max-width: 393px;
-        padding: 64px 16px 0;
+        padding: 64px 0 0;
     }
 }
 @media screen and (max-width: 424px) {
     .intro {
         max-width: 288px;
-        padding: 64px 16px 0;
     }
 }

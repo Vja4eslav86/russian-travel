@@ -3,14 +3,13 @@
     width: 100%;
     min-height: 740px;
     margin: 0 auto;
-    padding: 92px 48px 0;
+    padding: 92px 0 0;
 }
 
 @media screen and (max-width: 1279px) {
     .cover {
         max-width: 1024px;
         min-height: 640px;
-        padding: 92px 0 0;
     }
 }
 
@@ -33,6 +32,5 @@
     .cover {
         max-width: 320px;
         min-height: 200px;
-        padding: 66px 0 0;
     }
 }
