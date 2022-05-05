@@ -5,29 +5,32 @@
     position: relative;
     margin: 0 auto;
     padding: 12px 148px 0;
+    max-width: 984px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .places {
+        max-width: 928px;
         padding: 12px 48px 0;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .places {
+        max-width: 720px;
         padding: 15px 24px 0;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .places {
         padding: 14px 0 0;
-        width: 425px;
+        max-width: 425px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
     .places {
-        width: 320px;
+        max-width: 320px;
     }
 }
